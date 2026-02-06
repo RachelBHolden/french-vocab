@@ -1,0 +1,9 @@
+{
+  "name": "VocabNoir",
+  "short_name": "VocabNoir",
+  "description": "Classified French Lexicon. A secure, noir-inspired language learning platform.",
+  "requestFramePermissions": [],
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "display": "standalone"
+}

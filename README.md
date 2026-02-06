@@ -1,11 +1,24 @@
-<div align="center">
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+# VocabNoir: Classified French Lexicon
 
-  <h1>Built with AI Studio</h2>
+A minimalist, noir-inspired French language learning application focused on vocabulary mastery, verb conjugation, and logical deduction.
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+## Features
+- **Vocabulary Matching:** Multi-level matching game with "Hard" mode (24 cards) for advanced agents.
+- **Conjugation Drills:** Interactive flashcard system for major French tenses (Passé Composé, Imparfait, Futur Simple, Conditionnel).
+- **Dossier Personnel:** Fully persistent progress tracking using local storage. No accounts required.
+- **Mystery Puzzles:** Short detective cases that require reading comprehension to solve.
+- **Noir Aesthetic:** Minimalist high-contrast design with an animated film-grain atmosphere.
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+## Tech Stack
+- React 19
+- TypeScript
+- Tailwind CSS
+- Native Browser LocalStorage for persistence
 
-</div>
+## Installation
+1. Clone the repository.
+2. Open `index.html` in a modern browser (or serve with a local server like Vite/Live Server).
+
+## Privacy
+VocabNoir is a client-side application. No data leaves your machine; your progress is stored exclusively in your browser's local storage.
