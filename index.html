@@ -5,14 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VocabNoir - Classified French Lexicon</title>
-    
-    <!-- Dependencies -->
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
-    
-    <!-- Babel for on-the-fly TSX transpilation (Enables No-Build Deployment) -->
-    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-
     <style>
         body {
             font-family: 'Inter', sans-serif;
@@ -36,32 +30,18 @@
             z-index: 9999;
         }
     </style>
-
-    <script type="importmap">
-    {
-      "imports": {
-        "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
-        "react/": "https://esm.sh/react@^19.2.3/",
-        "react": "https://esm.sh/react@^19.2.3",
-        "@google/genai": "https://esm.sh/@google/genai@^1.38.0"
-      }
-    }
-    </script>
-
-    <script>
-      // Browser Polyfill for process.env (Required for No-Build Gemini SDK usage)
-      window.process = {
-        env: {
-          // The API key is injected by the hosting environment or passed via local config.
-          // For security in a public repo, do not hardcode the key here.
-          API_KEY: "" 
-        }
-      };
-    </script>
+<script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "@google/genai": "https://esm.sh/@google/genai@^1.38.0"
+  }
+}
+</script>
 </head>
 <body class="film-grain">
     <div id="root"></div>
-    <!-- Load the main entry point as a Babel script -->
-    <script type="text/babel" data-type="module" src="index.tsx"></script>
 </body>
 </html>
